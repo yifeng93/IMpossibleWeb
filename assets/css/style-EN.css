@@ -480,7 +480,7 @@ section {
 }
 
 .section-title {
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 .section-title h2 {
   font-size: 14px;
@@ -503,8 +503,7 @@ section {
 }
 .section-title p {
   margin: 0;
-  margin: 0;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
   /*text-transform: uppercase;*/
   font-family: "Poppins", sans-serif;
@@ -810,7 +809,9 @@ section {
   color: #fff;
 }
 
-
+.more_intro h5 {
+  margin-bottom: 25px;
+}
 /*--------------------------------------------------------------
 # 自己改的（结束）
 --------------------------------------------------------------*/
