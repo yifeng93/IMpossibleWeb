@@ -23,16 +23,16 @@ a:hover {
   text-decoration: none;
 }
 
-@font-face {
-  font-family:shouxieFont;
-  src: url("../fonts/I-Ngaan-2.ttf");
-}
+/*@font-face {*/
+/*  font-family:shouxieFont;*/
+/*  src: url("../fonts/I-Ngaan-2.ttf");*/
+/*}*/
 
-h1{
-  font-family: shouxieFont;
-}
+/*h1{*/
+/*  font-family: shouxieFont;*/
+/*}*/
 
-h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
@@ -150,7 +150,7 @@ h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -278,7 +278,7 @@ h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #fff;
@@ -398,16 +398,16 @@ h2, h3, h4, h5, h6 {
   text-align: center;
 }
 #hero h1 {
-  margin: 0 0 10px 0;
+  margin: 0 0 40px;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 800;
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
 }
 #hero h2 {
   color: #eee;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-size: 24px;
 }
 #hero .btn-get-started {
@@ -770,18 +770,18 @@ section {
 }
 
 
-.section-journey-wrap {
-  height: 480px;
-}
-
 .journey-word-wrap {
   margin-left: 16px;
+}
+/* 行程码左边的图片宽度处理，替换成iframe 后可以删除 */
+.section-item-map >img {
+  width: 100%;
 }
 
 .journey-word-item-wrap {
   overflow-y: auto;
   text-align: center;  /* 看看具体行程是否要居中 不需要可以注释 */
-  height: 400px;
+  height: 560px;
 }
 
 .journey-word-item-wrap::-webkit-scrollbar{
