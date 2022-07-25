@@ -396,6 +396,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   flex-direction: column;
   text-align: center;
+  padding: 0 8px;
 }
 #hero h1 {
   margin: 0 0 40px;
